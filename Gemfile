@@ -14,7 +14,7 @@ gem 'webpacker', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7'
+# gem 'jbuilder', '~> 2.7'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -30,6 +30,8 @@ gem 'font-awesome-sass', '~> 5.12.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'cloudinary', '~> 1.16.0'
+
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
